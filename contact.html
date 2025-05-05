@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get in touch with Josh Pennington — Director of Operations and Web Developer.">
+    <title>JOSH PENNINGTON PORTFOLIO :: CONTACT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="images/jp-logo.png" alt="logo" class="logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home-hero">
+        <h1>Contact Me</h1>
+    </section>
+
+    <main>
+        <h1>Let's Connect</h1>
+        <p>If you’d like to reach out, fill out the form below — I’d love to hear from you!</p>
+
+        <form action="https://webdevstudents.com/portfolio/submit-form.php" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+            <div class="form-buttons">
+                <input type="submit" value="Send Message" class="myButton">
+                <input type="reset" value="Reset Form" class="myButton">
+            </div>
+        </form>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>About This Portfolio</h4>
+                <p>This website showcases projects from Josh Pennington's web development journey at <strong>Saint Paul College</strong>.</p>
+                <p><em>The floating Josh image is original artwork.</em></p>
+            </div>
+            <div class="footer-connect">
+                <h4>Let's Connect!</h4>
+                <p><i class="fa fa-linkedin"></i> <a href="https://linkedin.com/in/itsjoshpennington" target="_blank">Connect on LinkedIn</a></p>
+                <p><i class="fa fa-github"></i> <a href="https://github.com/jpenn92" target="_blank">Code on GitHub</a></p>
+                <p><i class="fa fa-envelope"></i> <a href="mailto:josh@itsjoshpennington.com">Email</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small>&copy; 2025 Joshua Pennington. All rights reserved.</small>
+        </div>
+    </footer>
+</body>
+</html>
