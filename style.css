@@ -211,6 +211,8 @@ canvas {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     background-image: url('images/game-background.png');
     background-size: cover;
+    max-width: 100%;
+    height: auto;
 }
 
 .myButton {
@@ -241,8 +243,6 @@ canvas {
     color: white !important;
     text-decoration: none;
 }
-
-
 
 hr {
     border: none;
@@ -306,6 +306,17 @@ hr {
         display: block;
         margin: 20px auto;
         max-width: 80%;
+    }
+    .game-wrapper {
+        padding: 1rem;
+    }
+    .myButton {
+        width: 100%;
+        font-size: 1em;
+    }
+    canvas {
+        width: 100% !important;
+        height: auto !important;
     }
 }
 
@@ -381,7 +392,7 @@ hr {
     margin-bottom: 15px;
 }
 .site-footer {
-    background-color: #392d69;  /* deep purple */
+    background-color: #392d69;
     color: #fff;
     padding: 40px 20px 20px;
     font-size: 0.9em;
